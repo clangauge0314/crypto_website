@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "logo": "CryptoVault",
+    "home": "Home",
+    "about": "About",
+    "calculator": "Calculator",
+    "blog": "Blog",
+    "contact": "Contact",
+    "mining_calculator": "Mining Calculator",
+    "referral_calculator": "Referral Calculator"
+  },
+  "hero": {
+    "title": "Welcome to CryptoVault",
+    "subtitle": "Secure your digital assets"
+  }
+}

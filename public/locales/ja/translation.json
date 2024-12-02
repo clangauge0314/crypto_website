@@ -1,0 +1,17 @@
+
+{
+  "nav": {
+    "logo": "CryptoVault",
+    "home": "ホーム",
+    "about": "概要",
+    "calculator": "計算機",
+    "blog": "ブログ",
+    "contact": "お問い合わせ",
+    "mining_calculator": "マイニング計算機",
+    "referral_calculator": "紹介計算機"
+  },
+  "hero": {
+    "title": "クリプトボールトへようこそ",
+    "subtitle": "デジタル資産を安全に"
+  }
+}

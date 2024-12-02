@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "logo": "CryptoVault",
+    "home": "首页",
+    "about": "关于",
+    "calculator": "计算器",
+    "blog": "博客",
+    "contact": "联系我们",
+    "mining_calculator": "挖矿计算器",
+    "referral_calculator": "推荐计算器"
+  },
+  "hero": {
+    "title": "欢迎来到加密保险库",
+    "subtitle": "安全保护您的数字资产"
+  }
+}

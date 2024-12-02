@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "logo": "CryptoVault",
+    "home": "홈",
+    "about": "소개",
+    "calculator": "계산기",
+    "blog": "블로그",
+    "contact": "문의하기",
+    "mining_calculator": "채굴 계산기",
+    "referral_calculator": "레퍼럴 계산기"
+  },
+  "hero": {
+    "title": "크립토볼트에 오신 것을 환영합니다",
+    "subtitle": "당신의 디지털 자산을 안전하게"
+  }
+}
