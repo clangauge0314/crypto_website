@@ -6,9 +6,19 @@ const MiningPerformanceTable = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollHeight = window.scrollY;
-      const triggerHeight = window.innerHeight * 0.1;
+      const tableSection = document.getElementById("table-section");
+      const tableSectionTop = tableSection?.offsetTop || 0;
+      const tableSectionHeight = tableSection?.offsetHeight || 0;
+      
+      // 현재 스크롤이 테이블 섹션 내에 있는지 확인
+      const isInTableSection = 
+        scrollHeight >= tableSectionTop && 
+        scrollHeight <= (tableSectionTop + tableSectionHeight);
+      
+      // 테이블 섹션의 10% 지점을 지났는지 확인
+      const triggerPoint = tableSectionTop + (tableSectionHeight * 0.1);
 
-      if (scrollHeight > triggerHeight && !hasScrolled.current) {
+      if (isInTableSection && scrollHeight > triggerPoint && !hasScrolled.current) {
         hasScrolled.current = true;
         const nextSection = document.getElementById("referral-section");
         if (nextSection) {
@@ -16,16 +26,14 @@ const MiningPerformanceTable = () => {
         }
       }
 
-      if (scrollHeight < triggerHeight) {
+      // 테이블 섹션 상단으로 돌아왔을 때 리셋
+      if (scrollHeight < tableSectionTop) {
         hasScrolled.current = false;
       }
     };
 
     window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (

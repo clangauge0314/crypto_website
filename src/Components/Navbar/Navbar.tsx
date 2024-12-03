@@ -169,7 +169,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="hidden xl:flex items-center gap-10 text-base font-light text-white">
+      <div className="hidden xl:flex items-center gap-10 text-lg font-light text-white">
         <a
           href="#"
           className="hover:text-purple-200 transition-colors duration-2000 hover:scale-110 transform"

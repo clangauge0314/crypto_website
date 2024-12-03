@@ -10,7 +10,14 @@
     "referral_calculator": "Referral Calculator"
   },
   "hero": {
-    "title": "Welcome to CryptoVault",
-    "subtitle": "Secure your digital assets"
+    "title": "Mining & Referral Rewards, Simplified!",
+    "subtitle": "Check GPU mining efficiency rankings with real-time cryptocurrency prices and easily calculate referral rewards. Plan smarter and mine better!",
+    "button": "Get Started"
+  },
+  "Navigation": {
+    "Btn1": "Home",
+    "Btn2": "Mining Calc",
+    "Btn3": "Referrals Calc",
+    "Btn4": "Settings"
   }
 }
