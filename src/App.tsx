@@ -3,8 +3,10 @@ import { useTranslation } from 'react-i18next';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import Loading from './Components/Loading/Loading';
-import Hero from './Components/Hero/Hero';
-import MiningPerformanceTable from './Components/MiningPerformanceTable/MiningPerformanceTable';
+import Hero from './Components/Home/Hero/Hero';
+import MiningPerformanceTable from './Components/Home/MiningPerformanceTable/MiningPerformanceTable';
+import BottomNavigationBar from './Components/Home/BottomNavigationBar/BottomNavigationBar';
+import ReferralCalculator from './Components/Home/ReferralCalculator/ReferralCalculator';
 
 function App() {
   const { i18n } = useTranslation();
@@ -52,6 +54,8 @@ function App() {
       <main className="flex-grow">
         <Hero />
         <MiningPerformanceTable />
+        <ReferralCalculator />
+        <BottomNavigationBar />
       </main>
     </div>
   );
