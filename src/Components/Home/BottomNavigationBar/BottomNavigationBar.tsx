@@ -36,9 +36,9 @@ const BottomNavigationBar = () => {
             e.stopPropagation();
             setIsCollapsed(true);
           }}
-          className="absolute top-2 right-4 text-purple-200 hover:text-white transition-colors duration-300"
+          className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-b from-purple-600 to-purple-900 rounded-full flex items-center justify-center hover:bg-purple-800 transition-colors duration-300"
         >
-          <IoMdClose size={20} />
+          <IoMdClose size={20} className="text-white" />
         </button>
       )}
       
