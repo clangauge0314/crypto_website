@@ -7,6 +7,8 @@ import Hero from './Components/Home/Hero/Hero';
 import MiningPerformanceTable from './Components/Home/MiningPerformanceTable/MiningPerformanceTable';
 import BottomNavigationBar from './Components/Home/BottomNavigationBar/BottomNavigationBar';
 import ReferralCalculator from './Components/Home/ReferralCalculator/ReferralCalculator';
+import CryptoBoard from './Components/Home/CryptoBoard/CryptoBoard';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const { i18n } = useTranslation();
@@ -56,7 +58,9 @@ function App() {
         <MiningPerformanceTable />
         <ReferralCalculator />
         <BottomNavigationBar />
+        <CryptoBoard />
       </main>
+      <Footer />
     </div>
   );
 
